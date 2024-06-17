@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 // import Create from './Create';
 // import Search from './Search';
 import Home from './Home';
+import "../stylesheets/app.css"
 
 function App() {
 

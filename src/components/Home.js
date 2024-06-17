@@ -14,8 +14,9 @@ const Home = () => {
 
   console.log('restaurants in Home:', restaurants)
   return (
-    <div>
+    <div className='home'>
       <Navbar />
+      <h2>List of Restaurants</h2>
       <RestaurantList restaurants={restaurants}/>
     </div>
   )
