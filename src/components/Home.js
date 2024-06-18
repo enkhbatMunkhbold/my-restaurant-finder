@@ -12,6 +12,10 @@ const Home = () => {
      .then(restaurants => setRestaurants(restaurants))
   }, [])
 
+  // const HandleAddNewRestaurant = (newRestaurant) => {
+  //   setRestaurants([...restaurants, newRestaurant])
+  // }
+
   console.log('restaurants in Home:', restaurants)
   return (
     <div className='home'>
